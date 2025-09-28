@@ -155,22 +155,8 @@ const Index = () => {
             
             <div className="relative z-10 p-6 md:p-8 flex flex-col lg:flex-row items-center justify-between gap-6">
               
-              {/* Mobile Layout - Reorganized: circle, text, slider, buttons */}
+              {/* Mobile Layout - Reorganized: text, slider, buttons */}
               <div className="flex lg:hidden flex-col items-center gap-6 w-full">
-                {/* Spinning Circle at Top */}
-                <div className="flex-shrink-0 animate-scale-in">
-                  <div className="relative">
-                    <div className="w-20 h-20 md:w-28 md:h-28 bg-gradient-to-br from-violet-500 via-purple-500 to-fuchsia-500 rounded-full flex items-center justify-center shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 transition-all duration-500 hover:scale-105 animate-slow-spin">
-                    </div>
-                    <img 
-                      src={gobotGif} 
-                      alt="GOBOT Animation" 
-                      className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 md:w-24 md:h-24 object-contain block md:hidden"
-                    />
-                    {/* Floating elements */}
-                    
-                  </div>
-                </div>
                 
                 {/* Centered Text */}
                 <h2 className="text-lg md:text-xl font-bold bg-white bg-gradient-to-r from-slate-600 via-purple-600 to-slate-600 dark:from-gray-300 dark:via-purple-300 dark:to-gray-300 bg-clip-text text-transparent mb-4 leading-relaxed text-center px-4 py-2 rounded-lg">
@@ -235,17 +221,6 @@ const Index = () => {
 
               {/* Desktop Layout - New reorganized layout */}
               <div className="hidden lg:flex flex-col items-center gap-6 w-full">
-                {/* Spinning Circle at Top */}
-                <div className="flex-shrink-0 animate-scale-in">
-                  <div className="relative">
-                    <div className="w-28 h-28 bg-gradient-to-br from-violet-500 via-purple-500 to-fuchsia-500 rounded-full flex items-center justify-center shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 transition-all duration-500 hover:scale-105 animate-slow-spin">
-                      <div className="w-24 h-24 bg-white/20 rounded-full backdrop-blur-sm">
-                      </div>
-                    </div>
-                    {/* Floating elements */}
-                    
-                  </div>
-                </div>
                 
                 {/* Centered Heading */}
                 <h2 className="text-2xl xl:text-3xl font-bold bg-white bg-gradient-to-r from-slate-600 via-purple-600 to-slate-600 dark:from-gray-300 dark:via-purple-300 dark:to-gray-300 bg-clip-text text-transparent mb-4 leading-relaxed text-center px-4 py-2 rounded-lg">
