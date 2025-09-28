@@ -140,7 +140,7 @@ export type Database = {
           facebook_page: string | null
           id: string
           image_url: string | null
-          info_website: string | null
+          information_website: string | null
           last_payment_date: string | null
           license_expired_date: string | null
           listing_expired_date: string | null
@@ -173,7 +173,7 @@ export type Database = {
           facebook_page?: string | null
           id?: string
           image_url?: string | null
-          info_website?: string | null
+          information_website?: string | null
           last_payment_date?: string | null
           license_expired_date?: string | null
           listing_expired_date?: string | null
@@ -206,7 +206,7 @@ export type Database = {
           facebook_page?: string | null
           id?: string
           image_url?: string | null
-          info_website?: string | null
+          information_website?: string | null
           last_payment_date?: string | null
           license_expired_date?: string | null
           listing_expired_date?: string | null
@@ -454,7 +454,7 @@ export type Database = {
           facebook_page: string | null
           id: string
           image_url: string | null
-          info_website: string | null
+          information_website: string | null
           last_payment_date: string | null
           license_expired_date: string | null
           listing_expired_date: string | null
