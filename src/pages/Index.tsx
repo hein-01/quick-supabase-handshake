@@ -152,9 +152,6 @@ const Index = () => {
       <section className="py-12 px-4">
         <div className="container mx-auto">
           <div className="relative overflow-hidden bg-white dark:bg-white rounded-3xl shadow-2xl border border-white/20 backdrop-blur-sm">
-            {/* Decorative background elements */}
-            <div className="absolute -top-12 -right-12 w-32 h-32 bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full blur-2xl"></div>
-            <div className="absolute -bottom-8 -left-8 w-28 h-28 bg-gradient-to-br from-blue-400/20 to-indigo-400/20 rounded-full blur-2xl"></div>
             
             <div className="relative z-10 p-6 md:p-8 flex flex-col lg:flex-row items-center justify-between gap-6">
               
