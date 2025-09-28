@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { ShoppingBag, Compass, ArrowRight } from "lucide-react";
 import searchIcon from "../assets/search-icon-new.png";
 import gobotGif from "../assets/gobot-animation.gif";
+import gobotNewGif from "../assets/gobot-new.gif";
 
 import { Link, useNavigate } from "react-router-dom";
 import { Navbar } from "@/components/Navbar";
@@ -158,6 +159,15 @@ const Index = () => {
               {/* Mobile Layout - Reorganized: text, slider, buttons */}
               <div className="flex lg:hidden flex-col items-center gap-6 w-full">
                 
+                {/* GOBOT GIF */}
+                <div className="flex-shrink-0 animate-scale-in">
+                  <img 
+                    src={gobotNewGif} 
+                    alt="GOBOT Animation" 
+                    className="w-[75px] h-[75px] object-contain"
+                  />
+                </div>
+                
                 {/* Centered Text */}
                 <h2 className="text-lg md:text-xl font-bold bg-white bg-gradient-to-r from-slate-600 via-purple-600 to-slate-600 dark:from-gray-300 dark:via-purple-300 dark:to-gray-300 bg-clip-text text-transparent mb-4 leading-relaxed text-center px-4 py-2 rounded-lg">
                   Find a business or<br className="sm:hidden" /> Start your online business!
@@ -221,6 +231,15 @@ const Index = () => {
 
               {/* Desktop Layout - New reorganized layout */}
               <div className="hidden lg:flex flex-col items-center gap-6 w-full">
+                
+                {/* GOBOT GIF */}
+                <div className="flex-shrink-0 animate-scale-in">
+                  <img 
+                    src={gobotNewGif} 
+                    alt="GOBOT Animation" 
+                    className="w-[75px] h-[75px] object-contain"
+                  />
+                </div>
                 
                 {/* Centered Heading */}
                 <h2 className="text-2xl xl:text-3xl font-bold bg-white bg-gradient-to-r from-slate-600 via-purple-600 to-slate-600 dark:from-gray-300 dark:via-purple-300 dark:to-gray-300 bg-clip-text text-transparent mb-4 leading-relaxed text-center px-4 py-2 rounded-lg">
