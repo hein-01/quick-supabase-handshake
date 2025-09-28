@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { ShoppingBag, Compass, ArrowRight } from "lucide-react";
 import searchIcon from "../assets/search-icon-new.png";
 import gobotGif from "../assets/gobot-animation.gif";
-import gobotNewGif from "../assets/gobot-new.gif";
+import gobotNewGif from "../assets/gobot-updated.gif";
 
 import { Link, useNavigate } from "react-router-dom";
 import { Navbar } from "@/components/Navbar";
