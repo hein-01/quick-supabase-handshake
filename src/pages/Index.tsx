@@ -164,7 +164,8 @@ const Index = () => {
                   <img 
                     src={gobotNewGif} 
                     alt="GOBOT Animation" 
-                    className="w-[120px] h-[120px] object-contain"
+                    className="w-[150px] h-[150px] rounded-full object-cover"
+                    style={{ borderRadius: '50%' }}
                   />
                 </div>
                 
@@ -237,7 +238,8 @@ const Index = () => {
                   <img 
                     src={gobotNewGif} 
                     alt="GOBOT Animation" 
-                    className="w-[120px] h-[120px] object-contain"
+                    className="w-[150px] h-[150px] rounded-full object-cover"
+                    style={{ borderRadius: '50%' }}
                   />
                 </div>
                 
